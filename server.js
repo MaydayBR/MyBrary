@@ -59,6 +59,10 @@ start();
 //paths 
 app.use('/' , indexRouter)
 app.use('/authors' , authorsRouter)
+<<<<<<< HEAD
+=======
+
+>>>>>>> d469be1 (Initial Author Routes)
 
 
 
