@@ -1,7 +1,4 @@
 .env
-<<<<<<< HEAD
 node_modules
 .history/
-=======
-node_modules
->>>>>>> f5838b9 (Initial Setup)
+public/uploads

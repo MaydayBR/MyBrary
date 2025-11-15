@@ -10,6 +10,7 @@ const bodyParser = require('body-parser')
 //routes
 const indexRouter = require('./routes/index')
 const authorsRouter = require('./routes/authors')
+const bookRouter = require('./routes/books')
 
 //setting up views and layouts 
 app.set('view engine' , 'ejs')
@@ -59,10 +60,8 @@ start();
 //paths 
 app.use('/' , indexRouter)
 app.use('/authors' , authorsRouter)
-<<<<<<< HEAD
-=======
 
->>>>>>> d469be1 (Initial Author Routes)
+app.use('/books', bookRouter)
 
 
 
